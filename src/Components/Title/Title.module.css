@@ -1,0 +1,47 @@
+@media (max-width: 1110px) {
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title:after {
+        content: '';
+        width: 5rem;
+        height: .2rem;
+        background: var(--color-light1);
+        display: block;
+        margin-bottom: .9rem;
+    }
+    .subtitle, .title {
+        text-align: center;
+    }
+}
+
+.title {
+    font: 700 3rem Rajdhani;
+    color: var(--color-dark1);
+    margin-bottom: .9rem;
+    line-height: 110%;
+}
+
+.title:after {
+    content: '';
+    width: 5rem;
+    height: .2rem;
+    background: var(--color-light1);
+    display: block;
+    margin-bottom: .9rem;
+}
+
+.subtitle {
+    font: 700 1.5rem Rajdhani;
+    color: var(--color-dark1)
+}
+
+.light {
+    color: var(--color-light1);
+}
+
+.light:after {
+    background: var(--color-dark3);
+}

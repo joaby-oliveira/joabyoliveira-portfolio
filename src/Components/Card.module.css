@@ -1,0 +1,52 @@
+@media (max-width: 1110px) {
+    div.flipCardContainer {
+        max-width: 340px;
+    }
+
+    div.flipCardContainer img {
+        width: 100px;
+    }
+}
+
+.flipCardContainer {
+    width: 340px;
+    height: 300px;
+    margin-bottom: 3.8rem;
+    text-align: center;
+    perspective: 1000px;
+}
+
+.flipCardContainer.portfolio .flipper{
+    width: 340px;
+    background: var(--color-dark1);
+}
+
+.flipper {
+    background: #222;
+    box-shadow: 0px 20px 40px rgba(15, 32, 36, .4);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipCardContainer:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.flipCardBack {
+    transform: rotateY(180deg);
+    flex-direction: column;
+    padding: 0 1.9rem;
+}

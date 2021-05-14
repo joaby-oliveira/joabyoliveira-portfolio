@@ -1,0 +1,12 @@
+.portfolioCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(133.73deg, #0F2024 0%, #000000 97.88%);
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.portfolioCard img {
+    max-width: 8rem;
+}

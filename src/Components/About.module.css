@@ -1,0 +1,47 @@
+@media (max-width: 1110px) {
+    section.about header {
+        padding: 0;
+    }
+    div.cards {
+        width: 100%;
+        justify-content: space-around;
+        padding: 0;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 3.8rem;
+}
+
+.about header {
+    padding: 3.8rem 0 1.9rem 3.8rem;
+    width: 100%;
+}
+
+.cardsContainer {
+    background: #111;
+    width: 100%;
+    padding-top: 1.9rem;
+}
+
+.cardsContainer {
+    padding: 3.8rem;
+}
+
+.cards {
+    margin-top: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

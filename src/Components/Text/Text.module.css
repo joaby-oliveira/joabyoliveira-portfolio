@@ -1,0 +1,15 @@
+@media (max-width: 1110px) {
+    .text {
+        text-align: center;
+    }
+}
+
+.text {
+    font: 400 .9rem 'Roboto Mono';
+    color: var(--color-dark3);
+    line-height: 140%;
+}
+
+.light {
+    color: var(--color-light3);
+}

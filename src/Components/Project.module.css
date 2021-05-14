@@ -1,0 +1,30 @@
+
+.container, .imgContainer, .imgContainerMobile div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 3.8rem;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+}
+
+.imgContainer {
+    align-items: center;
+}
+
+.imgContainerMobile {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 1;
+}
+
+.imgContainer img {
+    margin: 1.9rem;
+    max-width: 80%;
+    box-shadow: 0 0 70px #00000020;
+}

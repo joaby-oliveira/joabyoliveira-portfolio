@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    background: var(--color-enphasis3);
+    color: var(--color-light1);
+    box-shadow: 0px 10px 20px rgba(239, 67, 62, 0.25);
+    font: 500 1.2rem Rajdhani;
+    padding: 1.9rem 3.8rem;
+    transition: 0.2s ease;
+    margin-top: 1.9rem;
+}
+
+.fillParent {
+    width: 100%;
+}
+
+.button:hover {
+    background: var(--color-enphasis5);
+}
+
+.short {
+    padding: .9rem 3.8rem;
+}

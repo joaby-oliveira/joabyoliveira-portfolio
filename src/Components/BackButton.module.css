@@ -1,0 +1,16 @@
+.backButton {
+    display: flex;
+    width: 80%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    padding: 1.9rem;
+    transition: 0.2s background transform;
+}
+.backButton:hover {
+    background: var(--color-light1);
+}
+.backButton h1 {
+    margin: 0 3.8rem;
+}
+.backButton h1:after {
+    display: none;
+}

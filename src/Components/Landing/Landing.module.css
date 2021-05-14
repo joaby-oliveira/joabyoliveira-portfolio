@@ -1,0 +1,88 @@
+@media (max-width: 1110px) {
+    section.hero {
+        background-size: cover;
+        background-position: center;
+    }
+    section.portfolio {
+        padding: 3.8rem;
+    }
+    section.portfolio img {
+        width: 80%;
+    }
+    section.budget {
+        padding: 3.8rem;
+    }
+    section.budget div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.hero {
+    height: calc(100vh - 71px);
+    background: url('../../img/hero.svg');
+    background-size: cover;
+}
+
+section {
+    padding: 3.75rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio {
+    background: url('../../img/macbookBackground.svg');
+    background-size: cover;
+}
+
+.reasons {
+    padding-top: 3.8rem;
+}
+
+.budget {
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10rem;
+    background: url('../../img/budget.jpg');
+    background-size: cover;
+}
+
+.budget div {
+    max-width: 40rem;
+}
+
+.sites {
+    padding: 1rem;
+    background: #000;
+    margin-top: -.1rem;
+}
+
+.imgContainer {
+    width: 100%;
+    padding: .6rem;
+    justify-content: space-around;
+}
+
+.imgContainer a {
+    transition: 0.2s ease;
+}
+
+.imgContainer img {
+    width: 4rem;
+}
+
+.imgContainer a:hover {
+    transform: scale(1.1);
+}
+
+.imgContainer::-webkit-scrollbar {
+    height: .6rem;
+    margin-top: .2rem;
+}
+
+.imgContainer::-webkit-scrollbar-thumb {
+    background: var(--color-dark2);
+}
