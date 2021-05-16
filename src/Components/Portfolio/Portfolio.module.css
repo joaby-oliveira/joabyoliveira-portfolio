@@ -4,3 +4,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.portfolio h1 {
+    margin-bottom: 3.8rem !important;
+}

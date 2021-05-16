@@ -9,11 +9,19 @@ import About from './Components/About'
 import Project from './Components/Project'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact';
+import { Helmet } from 'react-helmet';
 const App = () => {
   const [loading, setLoading] = React.useState(true);
+  console.warn = () => {}
+  console.error = () => {}
   return (
     <BrowserRouter>
     <Navbar />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Joaby Oliveira</title>
+        <link rel="shortcut icon" href="caminhodoarquivo/favicon.ico" />
+      </Helmet>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/sobre" element={<About />} />

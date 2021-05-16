@@ -7,7 +7,7 @@ import oscel3 from '../img/oscel3.jpg'
 
 import lisweet1 from '../img/lisweet1.jpg'
 
-import uhuu1 from '../img/uhuu1.jpg'
+import uhuu1 from '../img/uhuu1.png'
 import uhuu2 from '../img/uhuu2.jpg'
 import uhuu3 from '../img/uhuu3.jpg'
 import uhuu4 from '../img/uhuu4.jpg'

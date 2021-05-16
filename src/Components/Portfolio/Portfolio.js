@@ -12,7 +12,7 @@ import PortfolioCard from './PortfolioCard'
 import Card from '../Card'
 const Portfolio = () => {
     return (
-        <section className="animeTopToBottom">
+        <section className={`animeTopToBottom ${styles.portfolio}`}>
             <Title>Veja os sites e aplicativos que já desenvolvi</Title>
             <div className={styles.cardPortfolioContainer}>
                 <Card portfolio={true} path={oscel} to="./oscell" title={"Oscel"}>Design da interface de um programa para gerar ordem de serviço para técnicos de assistência técnica.</Card>

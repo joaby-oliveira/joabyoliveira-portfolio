@@ -22,10 +22,10 @@ const Footer = () => {
                     <Title light={true} h2={true}>Contato</Title>
                     <address>
                         <Text light={true}>
-                            joabyoliveira2004@gmail.com
+                            - joabyoliveira2004@gmail.com
                         </Text>
                         <Text light={true}>
-                            14996678503
+                            - (14)99902-9409
                         </Text>
                     </address>
                 </div>
